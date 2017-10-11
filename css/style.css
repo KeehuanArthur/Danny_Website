@@ -1,0 +1,293 @@
+/* -------------------------- Globals --------------------------- */
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4
+}
+
+.my_container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.center {
+    margin: auto;
+}
+
+
+/* ------------------------------ Modal -------------------------- */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 20;
+    padding-top: 100px;
+    left:0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.3s;
+    animation-name: zoom;
+    animation-duration: 0.3s;}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    max-width: 80%;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* -------------------------- page headers ------------------------- */
+.page-header {
+    margin-top: 0px;    
+    margin-bottom: 0px;
+    border-bottom: #e8491d 3px solid;    
+    background: #35424a;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+.page-header .container .header_text {
+    color: #ffffff;
+    margin: 20px;
+    padding-left: 20px;
+    margin-right: 20px;
+}
+
+.page-header .container .header_icon {
+    float: left;
+    filter: invert(100%) grayscale(100%);
+    margin-right: 20px;
+}
+
+
+/* ------------------------- Carousel ---------------------------- */
+.carousel {
+    margin-top: 0px;
+}
+
+.carousel-inner {
+    max-height: 500px;
+    position: center;
+    border-image-slice: cover;
+}
+
+/* ------------------ Icons in middle (boxes) ---------------------- */
+#center_icons {
+    margin-top: 10px;
+}
+
+#center_icons .box {
+    float: left;
+    text-align: center;
+    width: 32%;
+    padding: 10px;  
+}
+
+#center_icons .box img {
+    width: 150px;
+}
+
+#center_icons .box a {
+    text-decoration: none;
+}
+
+#center_icons .box p {
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+    position: relative;
+    transition: 500ms;
+    /* overflow: hidden; */
+    top: -20px;
+}
+
+#center_icons .box:hover  p {
+    -webkit-transition: all 500ms ease-in;
+    -ms-transition: all 500ms ease-in;
+    -moz-transition: all 500ms ease-in;
+    transition: all 500ms ease-in;
+
+    opacity: 1;
+    transition: 500ms;
+    top: 0px;
+    visibility: visible;
+}
+
+/* ------------------------------ Resume ----------------------------- */
+#resume_container embed {
+    width: 100%;
+    margin: auto;
+}
+
+
+/* ----------------------- About Me ---------------------------------- */
+
+#about_me h1 {
+    text-align: center;
+}
+
+#about_me img {
+    display: block;
+    /* transform: rotate(-90deg); */
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+#about_me p {
+    font-size: 16px;
+}
+
+#about_me blockquote {
+    padding:10px;
+}
+
+/* --------------------- Gallery images ------------------------- */
+#gallery_images {
+    z-index: 1;
+    margin: center;
+}
+
+#gallery_images h1 {
+    color: white;
+    text-align: center;
+    background: gray
+}
+
+#gallery_images .gallery_thumb_outer_frame {
+    z-index: 1;    
+    padding: 10px;
+    height: 400px;    
+}
+
+#gallery_images .gallery_thumb_long_outer_frame {
+    z-index: 1;
+    padding: 10px;
+}
+
+#gallery_images .gallery_thumb_frame {
+    z-index: 1;
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    position: relative;    
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px #AACCFF;
+}
+
+#gallery_images img {
+    border-style: none;
+    max-height: 100%;
+    max-width: 100%;
+    display: block; 
+    position: relative;    
+}
+
+#gallery_images .gallery_thumb_outer_frame .gallery_thumb_frame img {
+    z-index: 1; 
+    position: relative;
+    margin: auto;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#gallery_images .gallery_thumb_long_outer_frame:hover, .gallery_thumb_outer_frame:hover {
+    z-index: 20;
+    -webkit-transition: all 100ms ease-in;
+    -ms-transition: all 200ms ease-in;
+    -moz-transition: all 100ms ease-in;
+    transition: all 100ms ease-in;
+
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);   
+    -moz-transform: scale(1.05);
+    transform: scale(1.05);
+    
+    /* box-shadow: 0px 0px 10px #AACCFF; */
+    /** note: weird issue
+      * if you put the hover on the inner frame instead of the outer frame, the z-index
+      * seems to act up. It transforms but the z-index doesn't seem to change ie the
+      * items appear behind the lower items.
+      */
+}
+
+/* ------------------------- Footer ---------------------------- */
+.main_footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #e8491d;
+    text-align: center;
+}
+
+/* ---------------------- Media Queries ----------------------- */
+@media(max-width: 768px) {
+    #center_icons .container .box,
+    .page-header .container .header_icon,
+    .page-header .container .header_text,
+    #gallery_images img
+    {
+        float: none;
+        text-align: center;
+        width: 100%;
+        margin: 0px;
+        margin-top: 10px;
+    }
+}
+
+/* @media(max-width: 768px) {
+    .gallery_thumb_outer_frame {
+        margin: 5%;
+        height: 400px;
+    }
+} */
+
+/* @media(max-width: 768px) {
+    .container {
+        margin: 5%;
+    }
+} */
+
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
