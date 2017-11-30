@@ -1,0 +1,3 @@
+wide
+Schedule of Three Trips
+This project illustrates three different trips that I have taken: one to a building in my college, one back home, and one to a city I desire to go to. I took an illustrative approach so that the information can be read through just the pictures. Of course the text gives more details about each trip, but for the quick viewer, looking at each icon summarizes what is going on in each route.

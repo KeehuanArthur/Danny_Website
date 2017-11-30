@@ -1,0 +1,3 @@
+none
+United States of Typography
+This project is inspired by a thought during my childhood; first, I was wondering why Louisiana is shaped as an L on the map. An old tutor thought my imagination is abnormally strange. As a result, I decided to try proving him wrong by shaping each text as the first letter of their name. Some were simple to design such as Louisiana, but others were difficult, so there were conflicts on readability versus distorting the original state shape. 

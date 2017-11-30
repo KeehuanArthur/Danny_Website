@@ -25,28 +25,13 @@ body {
 
 
 /* ------------------------------ Modal -------------------------- */
-.modal {
-    display: none;
-    position: fixed;
-    z-index: 20;
-    padding-top: 100px;
-    left:0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgb(0, 0, 0);
-    background-color: rgba(0, 0, 0, 0.9);
 
-    -webkit-animation-name: zoom;
-    -webkit-animation-duration: 0.3s;
-    animation-name: zoom;
-    animation-duration: 0.3s;}
+.modal-dialog {
+    width: 70%;
+}
 
-.modal-content {
-    margin: auto;
-    display: block;
-    max-width: 80%;
+.modal-dialog-img {
+    width: 100%
 }
 
 @-webkit-keyframes zoom {
@@ -63,7 +48,7 @@ body {
     position: absolute;
     top: 15px;
     right: 35px;
-    color: #f1f1f1;
+    color: #968f8f;
     font-size: 40px;
     font-weight: bold;
     transition: 0.3s;
@@ -195,7 +180,7 @@ body {
 #gallery_images .gallery_thumb_outer_frame {
     z-index: 1;    
     padding: 10px;
-    height: 400px;    
+    height: 400px;
 }
 
 #gallery_images .gallery_thumb_long_outer_frame {
@@ -211,14 +196,22 @@ body {
     position: relative;    
     background: #FFFFFF;
     box-shadow: 0px 0px 10px #AACCFF;
+    display: flex;
+    justify-content: center;
 }
 
 #gallery_images img {
-    border-style: none;
     max-height: 100%;
     max-width: 100%;
-    display: block; 
-    position: relative;    
+    position: relative;
+    margin: center;
+}
+
+.caption {
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    align-self: flex-end;    
 }
 
 #gallery_images .gallery_thumb_outer_frame .gallery_thumb_frame img {
@@ -247,6 +240,49 @@ body {
       * seems to act up. It transforms but the z-index doesn't seem to change ie the
       * items appear behind the lower items.
       */
+}
+
+.row-flex, .row-flex > div[class*='col-'] {  
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex:1 1 auto;
+}
+
+.flex-col {
+    display: flex;
+    display: -webkit-flex;
+	flex-flow: column nowrap;
+}
+
+.flex-grow {
+	display: flex;
+    -webkit-flex: 2;
+    flex: 2;
+}
+
+.panel-footer.panel-body {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.flex-frame {
+    width: 100%;
+}
+
+.panel-footer.panel-custom {
+    background: white;
+    color: black;
+    text-align: center;
 }
 
 /* ------------------------- Footer ---------------------------- */
@@ -289,5 +325,8 @@ body {
 @media only screen and (max-width: 700px){
     .modal-content {
         width: 100%;
+    }
+    .modal-dialog {
+        width: 92%;
     }
 }
