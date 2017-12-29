@@ -1,0 +1,99 @@
+[
+    {
+        "title": "Schedule of Three Trips",
+        "description": "This project illustrates three different trips that I have taken: one to a building in my college, one back home, and one to a city I desire to go to. I took an illustrative approach so that the information can be read through just the pictures. Of course the text gives more details about each trip, but for the quick viewer, looking at each icon summarizes what is going on in each route.",
+        "src": ["schedule_of_three_trips.jpg"]
+
+    },
+
+    {
+        "title": "Iran Infographic",
+        "description": "I was given information about Iran and had to format the information so that it is engaging and interactive to the user. I decided to take a fold-up approach so the extensive amount of information can be 'compressed' and read like a vertical book.",
+        "src": ["iran.jpg"]
+    },
+
+    {
+        "title": "1UP",
+        "description": "These are my steps to one up life",
+        "src": ["1up_pt1.jpg", "1up_pt2.jpg"]
+    },
+
+    {
+        "title": "Tobias Friere Jones",
+        "description": "I was assigned to design a brochure about Tobias Friere Jones; rather than the standard fold, I decided to go for a unique shape that makes the viewer take more time to unfold. It is not to frustrate the user, but rather encourage the user to read the brochure in a certain order.",
+        "src": ["tobais_brochure.jpg"]
+    },
+
+    {
+        "title": "Brand Parody",
+        "description": "These are redesigns of logos meant to parody the reality of some of these logos. I don't intend to offend or accuse these companies, but merely use creative ways to alter iconic logos to create a different meaning.",
+        "src": ["brand_parody.jpg"]
+    },
+
+    {
+        "title": "Mayo Surfboards",
+        "description": "I was assigned to redesign the logo for the company Mayo Surfboards. I researched themes that can help with the design and created different thumbnails that I believe would work as a logo. The final left logo is the final result of every iteration the log underwent. Additionally, I incorporated the logo into products such as business cards and t-shirts to give an idea on how it would look on merchandise.",
+        "src": ["mayo_surfboards.jpg"]
+    },
+    
+    {
+        "title": "Entocycle Redesign",
+        "description": "Mobile interfeace Redesign for the company Entocycle, adding a online shopping feature.",
+        "src": ["entocycle_redesign_pt1.jpg", "entocycle_redesign_pt2.jpg"]
+    },
+
+    {
+        "title": "Responsive Design",
+        "description": "This is responsive design.",
+        "src": ["responsive_redesign_pt1.jpg", "responsive_redesign_pt2.jpg"]
+    },
+
+    {
+        "title": "Food Order Input",
+        "description": "Basic Input Design of Ordering Food Online. I researched the multiple possibilites users will interact it and made the appropriate responses for them.",
+        "src": ["input_food_order.jpg"]
+    },
+
+    {
+        "title": "Diglett and Dugtrino",
+        "description": "This illustration is to illustrate a disaster in Providence. The majority of people took the approach using a giant monster, but I decided to take another method by using a multitude of small creatures. I will admit seeing many of these pokemon create chaos would be disturbing in any scenario.",
+        "src": ["diglett_and_dugtrio.jpg"]
+    },
+
+    {
+        "title": "Blender Renders",
+        "description": "Bleep Bloop Bleep",
+        "src": ["blender_renders.jpg"]
+    },
+
+    {
+        "title": "Material Alphabet",
+        "description": "This project is inspired by a thought during my childhood; first, I was wondering why Louisiana is shaped as an L on the map. An old tutor thought my imagination is abnormally strange. As a result, I decided to try proving him wrong by shaping each text as the first letter of their name. Some were simple to design such as Louisiana, but others were difficult, so there were conflicts on readability versus distorting the original state shape.",
+        "src": ["material_alphabet.jpg"]
+    },
+
+    {
+        "title": "United States of Typography",
+        "description": "This project is inspired by a thought during my childhood; first, I was wondering why Louisiana is shaped as an L on the map. An old tutor thought my imagination is abnormally strange. As a result, I decided to try proving him wrong by shaping each text as the first letter of their name. Some were simple to design such as Louisiana, but others were difficult, so there were conflicts on readability versus distorting the original state shape.",
+        "src": ["united_states.jpg"]
+    },
+
+    {
+        "title": "Korean Fire",
+        "description": "I have seen many illustrations playing with English typography, so I decided to design an illustration playing around with typography for another language. The language I used is Korean; I took the word fire, and played with the characters to not only make the word easy to understand at first glance but avoid making the word less readable to those who understand Korean.",
+        "src": ["korean_fire.jpg"]
+    },
+
+    {
+        "title": "Rhode Island Food Bank Bag",
+        "description": "This is my baggie and this shall be mine. This is my baggie. \n <3 <3 <3 I love my baggie :D",
+        "src": ["rhode_island_food_bank_bag.jpg"]
+    },
+
+    {
+        "title": "RISD Icons",
+        "description": "These Icons represent the undergraduate programs of RISD. I limited myself with a certain dimension of pixels so that I have to resourceful with every bit of space I have. Overall, I had to find unique ways to discern certain undergraduate majors over others since some programs use similar icons to represent themselves.",
+        "src": ["risd_icons.jpg"]
+    }
+
+]
