@@ -4,6 +4,7 @@ var img_regex = new RegExp("/gif|png|jpg");
 var special_regex_width = new RegExp("specialwidth");
 var special_regex_length = new RegExp("speciallength");
 var image_dict = {}
+var image_idx_src = "./img/gallery/index.json"
 
 // var modal = document.getElementById('image_modal');
 var modal = document.getElementById('myModal')
@@ -33,6 +34,9 @@ function make_outer_frame(id) {
     return "<div class='gallery_thumb_outer_frame img-responsive col-lg-4 col-md-4 col-sm-6 col-xs-12'> <div " + "id='" + id + "'class='gallery_thumb_frame panel panel-default flex-col'> </div> </div>";
 }
 
+function remove_space(string) {
+    return string.replace(/\//g, '');
+}
 
 /**
  * Adds the image thumb in the gallery with the title under the thumb.
@@ -139,6 +143,19 @@ $(window).on("navigate", function (event, data) {
         alert("mobile back pressed");
     }
   });
+
+
+  /**
+   * get index.json file and place the images according to that file.
+   */
+$.getJSON(
+    image_idx_src,
+    function(json) {
+        for (var i = 0; i < json.length; i++) {
+            if 
+        }
+    }
+)
 
 /**
  * this is the jquery version of doing xmlhttprequest. You're basically thowing a js object to jquery with
