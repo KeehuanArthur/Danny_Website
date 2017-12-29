@@ -62,7 +62,7 @@
 
     {
         "title": "Blender Renders",
-        "description": "Bleep Bloop Bleep",
+        "description": "",
         "src": ["blender_renders.jpg"]
     },
 
@@ -86,7 +86,7 @@
 
     {
         "title": "Rhode Island Food Bank Bag",
-        "description": "This is my baggie and this shall be mine. This is my baggie. \n <3 <3 <3 I love my baggie :D",
+        "description": "This is my baggie and this shall be mine. This is my baggie. </br> <3 <3 <3 I love my baggie :D",
         "src": ["rhode_island_food_bank_bag.jpg"]
     },
 

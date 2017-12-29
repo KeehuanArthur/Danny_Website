@@ -1,3 +1,0 @@
-none
-Food Order Input
-Basic Input Design of Ordering Food Online. I researched the multiple possibilites users will interact it and made the appropriate responses for them.

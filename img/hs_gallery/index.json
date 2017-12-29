@@ -1,0 +1,61 @@
+[
+    {
+        "title": "Character Design 1",
+        "description": "This is a fictional character that I designed in High School.",
+        "src": ["character_design_1.jpg"]
+    },
+
+    {
+        "title": "Character Design 2",
+        "description": "This is a transportation design that I made in High School.",
+        "src": ["character_design_2.jpg"]
+    },
+
+    {
+        "title": "Aunt Portrait",
+        "description": "This is a portrait of my aunt.",
+        "src": ["aunt_portrait.jpg"]
+    },
+
+    {
+        "title": "Digital to Reality",
+        "description": "This is a water color sketch that I made representing the merging of the digital or artificial space and what we call the natural space.",
+        "src": ["digital_to_reality.jpg"]
+    },
+
+    {
+        "title": "Exploring SF",
+        "description": "This is a watercolor painting of a boat crossing underneath the Golden Gate Bridge in San Francisco, California.",
+        "src": ["exploring_sf.jpg"]
+    },
+
+    {
+        "title": "Semi Automatic",
+        "description": "This is a 3D rendering of a semi-automatic.",
+        "src": ["semi_automatic.jpg"]
+    },
+
+    {
+        "title": "Shoes Still Life",
+        "description": "This is a shoe sketch.",
+        "src": ["shoes_still_life.jpg"]
+    },
+
+    {
+        "title": "The Five Moods",
+        "description": "This is a self portrait of the five fundimental emotions that humans can feel during their lifetime.",
+        "src": ["the_five_moods.jpg"]
+    },
+
+    {
+        "title": "Watercolor Still Life",
+        "description": "This is a watercolor painting that I made.",
+        "src": ["watercolor_still_life.jpg"]
+    },
+
+    {
+        "title": "You Can Go Anywhere With Your Hands",
+        "description": "This is a sketch that I worked on in High School. As a child, before the age of smartphones, I was extremely bored during car rides. So I would point my hands outside of the car window and imagine that they were some kind of magical transportation device going at 60 mph, jumping over building and cars that swept by.",
+        "src": ["you_can_go_anywhere_with_your_hands.jpg"]
+    }
+]
